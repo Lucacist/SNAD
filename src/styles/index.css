@@ -1,0 +1,173 @@
+body {
+  background-color: var(--couleur-body);
+  color: var(--couleur-texte);
+  margin: 0;
+  font-family: "Inter-SemiBold", sans-serif;
+}
+
+.title {
+  margin-top: 5vh;
+}
+
+.carousel {
+  position: relative;
+  width: 100%;
+  height: 40vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+  perspective: 1000px;
+  margin-top: 2vh;
+}
+
+.carousel-item {
+  position: absolute;
+  width: 60%;
+  height: 80%;
+  opacity: 0.5;
+  transition: transform 0.8s ease, opacity 0.8s ease, z-index 0.8s;
+}
+
+.carousel-item img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 10px;
+}
+
+.carousel-item.active {
+  transform: scale(1.2) translateX(0);
+  z-index: 3;
+  opacity: 1;
+}
+
+.carousel-item.previous {
+  transform: scale(0.9) translateX(-120%);
+  z-index: 2;
+  opacity: 1;
+}
+
+.carousel-item.previous-2 {
+  transform: scale(0.8) translateX(-200%);
+  z-index: 1;
+  opacity: 0;
+}
+
+.carousel-item.next {
+  transform: scale(0.9) translateX(120%);
+  z-index: 2;
+  opacity: 1;
+}
+
+.carousel-item.next-2 {
+  transform: scale(0.8) translateX(200%);
+  z-index: 1;
+  opacity: 0;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  margin: 4vw 8vw;
+  gap: 2vh;
+  align-items: center;
+  font-size: 1.4vw;
+}
+.container2 {
+  display: flex;
+  flex-direction: column;
+  margin: 4vw 8vw;
+  gap: 2vh;
+  align-items: left;
+  font-size: 1.4vw;
+}
+.sous-container {
+  display: flex;
+  max-width: 600px;
+  justify-content: space-evenly;
+  gap: 5vw;
+}
+
+.color {
+  color: var(--couleur-texte-orange);
+}
+
+.texte2 {
+  padding: 2vw;
+  width: auto;
+}
+
+.container-partenaires {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.title3 {
+  font-size: 1.6vw;
+  font-weight: 600;
+}
+
+.contain {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+
+.scrollable-container {
+  width: 80%;
+  margin: 2vh auto;
+  max-height: 30vh;
+  overflow-y: scroll;
+  overflow-x: hidden;
+  border: 1px solid #ccc;
+  padding: 1vw;
+  border-radius: 1vw;
+  display: flex;
+  flex-direction: column;
+  gap: 1vh;
+}
+
+/* Table wrapper styling */
+.table-wrapper {
+  margin-bottom: 20px; /* Adds spacing between tables */
+}
+
+/* Table styling */
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-bottom: 10px;
+}
+
+th,
+td {
+  border: 1px solid #ddd;
+  text-align: center;
+  padding: 8px;
+}
+
+th {
+  background-color: #f2f2f2;
+  font-weight: bold;
+}
+
+tr:nth-child(even) {
+  background-color: #f9f9f9;
+}
+
+tr:hover {
+  background-color: #f1f1f1;
+}
+
+@media (min-width: 1500px) {
+  .carousel {
+    height: 30vw;
+    margin: 2vh auto;
+  }
+  .carousel-item {
+    position: absolute;
+    width: 50%;
+    height: 80%;
+  }
+}

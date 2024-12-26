@@ -1,0 +1,57 @@
+:root {
+  --couleur-body: #fff;
+  --couleur-input: ;
+  --couleur-texte: #000;
+  --couleur-texte-orange: #e06b05;
+  --couleur-sous-texte: #00000095;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+  background: none;
+  border: none;
+  font: inherit;
+  padding: 0;
+  margin: 0;
+  cursor: pointer;
+}
+
+.title {
+  font-size: 5vw;
+  text-align: center;
+}
+
+.title2 {
+  font-size: 3.5vw;
+  text-align: left;
+  width: 100%;
+}
+
+.title-orange {
+  font-size: 5vw;
+  text-align: center;
+  color: var(--couleur-texte-orange);
+}
+
+.top-bar {
+  display: flex;
+  justify-content: space-evenly;
+  padding: 2vw;
+  font-weight: 700;
+  font-size: 1.2vw;
+  border-bottom: 1px solid #00000040;
+  align-items: center;
+}
+
+.bottom-bar {
+  padding: 2vw;
+  text-align: center;
+  font-weight: 700;
+  font-size: 1.2vw;
+  border-top: 1px solid #00000040;
+}
+
+.logo {
+  height: 3vw;
+}
