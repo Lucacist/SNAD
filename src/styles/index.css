@@ -178,21 +178,27 @@ tr:hover {
   }
   .container {
     font-size: 1.6vw;
+    margin-top: 8vh;
   }
   .title {
     font-size: 5.2vw;
+    margin-top: 7vh;
   }
   .title2 {
     font-size: 3.7vw;
   }
   .container2 {
     font-size: 1.6vw;
+    margin-top: 8vh;
   }
   .scrollable-container {
     width: 100%;
   }
   .bottom-bar {
     font-size: 1.4vw;
+  }
+  .carousel {
+    margin-top: 6vh;
   }
 }
 
