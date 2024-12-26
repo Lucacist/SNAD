@@ -171,3 +171,69 @@ tr:hover {
     height: 80%;
   }
 }
+
+@media (max-width: 1000px) {
+  .top-bar {
+    font-size: 1.4vw;
+  }
+  .container {
+    font-size: 1.6vw;
+  }
+  .title {
+    font-size: 5.2vw;
+  }
+  .title2 {
+    font-size: 3.7vw;
+  }
+  .container2 {
+    font-size: 1.6vw;
+  }
+  .scrollable-container {
+    width: 100%;
+  }
+  .bottom-bar {
+    font-size: 1.4vw;
+  }
+}
+
+@media (max-width: 800px) {
+  .top-bar {
+    font-size: 1.6vw;
+  }
+  .container {
+    font-size: 1.8vw;
+  }
+  .title {
+    font-size: 5.4vw;
+  }
+  .title2 {
+    font-size: 3.9vw;
+  }
+  .container2 {
+    font-size: 1.8vw;
+  }
+  .bottom-bar {
+    font-size: 1.6vw;
+  }
+}
+
+@media (max-width: 500px) {
+  .top-bar {
+    font-size: 1.8vw;
+  }
+  .container {
+    font-size: 2vw;
+  }
+  .title {
+    font-size: 5.6vw;
+  }
+  .title2 {
+    font-size: 4.1vw;
+  }
+  .container2 {
+    font-size: 2vw;
+  }
+  .bottom-bar {
+    font-size: 1.8vw;
+  }
+}
