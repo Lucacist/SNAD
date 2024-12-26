@@ -114,6 +114,10 @@ body {
   gap: 6px;
 }
 
+.margin {
+  margin-bottom: 20px;
+}
+
 .scrollable-container {
   width: 80%;
   margin: 2vh auto;
@@ -125,7 +129,7 @@ body {
   border-radius: 1vw;
   display: flex;
   flex-direction: column;
-  gap: 1vh;
+  gap: 2vh;
 }
 
 /* Table wrapper styling */
