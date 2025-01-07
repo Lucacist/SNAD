@@ -103,11 +103,6 @@ body {
   justify-content: space-evenly;
 }
 
-.title3 {
-  font-size: 1.6vw;
-  font-weight: 600;
-}
-
 .contain {
   display: flex;
   flex-direction: column;
@@ -189,7 +184,7 @@ tr:hover {
     margin-top: 7vh;
   }
   .title2 {
-    font-size: 3.7vw;
+    font-size: 2.7vw;
   }
   .container2 {
     font-size: 1.6vw;
@@ -217,7 +212,7 @@ tr:hover {
     font-size: 5.4vw;
   }
   .title2 {
-    font-size: 3.9vw;
+    font-size: 2.9vw;
   }
   .container2 {
     font-size: 1.8vw;
@@ -238,7 +233,7 @@ tr:hover {
     font-size: 5.6vw;
   }
   .title2 {
-    font-size: 4.1vw;
+    font-size: 3.1vw;
   }
   .container2 {
     font-size: 2vw;

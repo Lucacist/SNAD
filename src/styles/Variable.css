@@ -23,9 +23,14 @@ a {
 }
 
 .title2 {
-  font-size: 3.5vw;
+  font-size: 2.5vw;
   text-align: left;
   width: 100%;
+}
+
+.title3 {
+  font-size: 1.6vw;
+  font-weight: 600;
 }
 
 .title-orange {
